@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useCallback } from 'react';
+import classNames from 'classnames/bind';
+import styles from './App.css';
+
+const cx = classNames.bind(styles);
+
+const data = [...new Set(`Officia adipisicing officia eu nostrud elit duis laborum ex adipisicing minim reprehenderit consequat ut. Ut laboris irure amet ad dolore laboris magna quis.`.split(' '))];
 
 function App() {
+  const [isAbove, setIsAbove] = useState(false);
+  const onClick = useCallback(() => {
+    setIsAbove(s => !s);
+  }, []);
+
+  const dropdownClasses = cx('dropdown', { 'column-reverse': isAbove });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button type="button" onClick={onClick}>Set list to: {isAbove ? 'below' : 'above'}</button>
+      <div className={dropdownClasses}>
+          <input type="text" className={cx('dropdown-input')} />
+          <div className={cx('dropdown-list')}>
+            <ul>
+              {data.map(d => <li key={d} tabIndex="0">{d}</li>)}
+            </ul>
+          </div>
+        </div>
     </div>
   );
 }
