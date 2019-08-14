@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b32fed9f.chunk.css",
-    "main.js": "/static/js/main.1eec15dc.chunk.js",
-    "main.js.map": "/static/js/main.1eec15dc.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.684ee811.js",
-    "runtime~main.js.map": "/static/js/runtime~main.684ee811.js.map",
-    "static/js/2.31ab556b.chunk.js": "/static/js/2.31ab556b.chunk.js",
-    "static/js/2.31ab556b.chunk.js.map": "/static/js/2.31ab556b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d3214d230e05e0a69641081262c5b922.js": "/precache-manifest.d3214d230e05e0a69641081262c5b922.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.b32fed9f.chunk.css.map": "/static/css/main.b32fed9f.chunk.css.map"
+    "main.css": "/lets-get-flexy/static/css/main.b32fed9f.chunk.css",
+    "main.js": "/lets-get-flexy/static/js/main.46e78c2b.chunk.js",
+    "main.js.map": "/lets-get-flexy/static/js/main.46e78c2b.chunk.js.map",
+    "runtime~main.js": "/lets-get-flexy/static/js/runtime~main.33ed9929.js",
+    "runtime~main.js.map": "/lets-get-flexy/static/js/runtime~main.33ed9929.js.map",
+    "static/js/2.31ab556b.chunk.js": "/lets-get-flexy/static/js/2.31ab556b.chunk.js",
+    "static/js/2.31ab556b.chunk.js.map": "/lets-get-flexy/static/js/2.31ab556b.chunk.js.map",
+    "index.html": "/lets-get-flexy/index.html",
+    "precache-manifest.becb57c2a2555fd2b8f7325d7c9cdc30.js": "/lets-get-flexy/precache-manifest.becb57c2a2555fd2b8f7325d7c9cdc30.js",
+    "service-worker.js": "/lets-get-flexy/service-worker.js",
+    "static/css/main.b32fed9f.chunk.css.map": "/lets-get-flexy/static/css/main.b32fed9f.chunk.css.map"
   }
 }
